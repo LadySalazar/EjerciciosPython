@@ -1,6 +1,8 @@
 from unittest import TestCase
 
+from main import saberEdad
+
 
 class Test(TestCase):
-    def test_print_hi(self):
-        self.fail()
+    def test_saber_edad(self):
+        self.assertEqual(72,saberEdad(0,1998))
